@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.header{
+    min-height:100vh;
+    width:100%;
+    background-image: url("photob.jpg");
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display:flex;
+    padding:5%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex:1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline;
+    padding:10px;
+    position:relative;
+
+}
+.uni-head{
+    width:100%;
+    position: absolute;
+    top:75%;
+    left:15%;
+    text-align:center;
+
+}
+.uni-head h1{
+  
+    font-size: 80px;
+    font-family: fantasy ;
+    font-style: italic; 
+
+}
+.uni-head p{
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+    font-style: normal;
+    
+}
+.abt{
+    color:slateblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("photod.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height:100vh;
+    width:100%;
+}
+.abt h1{
+    color:rgb(255, 251, 20);
+    font-size: medium;
+    font-size: 30px;
+    min-height: 100vh;
+}
+
+
+.visit-btn
+{
+    display:inline-block;
+    text-decoration:none;
+    color:green;
+    border:1px solid;
+    border-color: black;
+    padding:12px 34px;
+    position:relative;
+    cursor: pointer;
+}
+
+.visit-btn:hover{
+    border:2px solid orangered;
+    background:palevioletred;
+    transition: 1s;
+}
+
+#line1{
+    color:blueviolet;
+    font-style:italic;
+    font-family: cursive;
+    font-sixe:40px;
+    border:solid;
+    border-color: orange;
+    padding:10%;
+
+}
+
+.course{
+    min-height:100vh;
+    width:100%;
+    background-image: url("photoe.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    display:flex;
+    padding:6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.course-links{
+    flex:1;
+    text-align: left;
+}
+.course-links ul li{
+    color:cornsilk;
+    font-style:normal;
+    font-family:'Times New Roman', Times, serif;
+    font-size:10px;
+    padding: 1px;
+
+}
+.course-head{
+    width:80%;
+    position: absolute;
+    top:5%;
+    left:15%;
+    text-align:center;
+
+}
+.course-head h1{
+  
+    font-size: 50px;
+    font-family: fantasy ;
+    font-style: italic; 
+
+}
+#clock{
+    width:300px;
+    margin:100px;
+    text-align: left;
+    font-size: 100px;
+    color: crimson;
+}
